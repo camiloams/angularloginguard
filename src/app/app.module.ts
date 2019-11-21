@@ -9,13 +9,15 @@ import { FormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { httpClientInMemBackendServiceFactory, HttpClientInMemoryWebApiModule, InMemoryDbService } from 'angular-in-memory-web-api';
 import { InMemoryDataServices } from './mocks/in-memory-data-services';
+import { HomeComponent } from './modules/home/home.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
